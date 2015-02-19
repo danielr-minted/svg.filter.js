@@ -143,7 +143,7 @@
   })
 
   //
-  SVG.extend(SVG.Element, SVG.G, SVG.Nested, SVG.Mask {
+  SVG.extend(SVG.Element, SVG.G, SVG.Nested, SVG.Mask, {
     // Create filter element in defs and store reference
     filter: function(block) {
       this.filterer = block instanceof SVG.Element ?
